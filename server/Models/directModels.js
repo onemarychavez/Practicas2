@@ -5,6 +5,8 @@ const MostrarDireccion = async (id_cliente) => {
     return resultado.rows
 }
 
+
+
 module.exports = {
     MostrarDireccion,
 }

@@ -10,7 +10,7 @@ app.use(cors())
 
 // Definir las rutas de clientes y direcciones
 app.use('/api/clientes', clientesRoutes)
-app.use('/api/direcciones', directRoutes)  // Eliminar el parámetro aquí
+app.use('/api/direcciones', directRoutes)  
 
 app.listen(PORT, () => {
     console.log(`servidor corriendo en el puerto ${PORT}`)
